@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/portfolio.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">PortFolio.</a>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Us</a>
+           
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><span> I'm</span></h3>
+            <h1 id="name">Maryam Khan</h1>
+            <P id="para">
+                <span>
+                    <span>CODER</span>
+                    <span>FREELANCER</span>
+                    <span>MS OFFICE EXPERT</span>
+                    <span>WEB DEVELOPER</span>
+                    <span>WEB DESIGNER</span>
+                </span>
+            </P>
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter-cl.vercel.app/login"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/images/women.jpg.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/images/women1.jpg.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, i'm Here To Help Your Next Project</h3>
+            <p>My name is Maryam Khan. I am currently pursuing a Bachelor’s degree in Software Engineering from Aptech. I have a strong interest in the field of technology and software development, and I am passionate about continuously learning new skills and exploring emerging tools in this domain.
+
+In my free time, I enjoy reading books, searching for new information, playing badminton, and discovering and learning about new topics. These hobbies help me stay curious, creative, and motivated to grow both personally and professionally.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2><span>E</span>ducation</h2>
+        <div class="container">
+            <div class="box">
+                <span class="line top"></span>
+                <span class="line right"></span>
+                <span class="line bottom"></span>
+                <span class="line left"></span>
+                <div class="contect">
+                   <h3>MATRICULATION</h3>
+                    <p> Govt Secondary SChool From Matriculation Board Of Secondary Education Karachi <br> (Medical Background)</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="line top"></span>
+                <span class="line right"></span>
+                <span class="line bottom"></span>
+                <span class="line left"></span>
+                <div class="contect">
+                   <h3>INTERMEDIATE</h3>
+                    <p>Private College From Intermediate Board Of Secondary Education Karachi <br> (Medical Background)</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="line top"></span>
+                <span class="line right"></span>
+                <span class="line bottom"></span>
+                <span class="line left"></span>
+                <div class="contect">
+                      <h3>SOFTWARE ENGENEERING</h3>
+                    <p>From Aptech Institute <br>(Higher Diploma)</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="information">
+            <div class="aboutto">
+                <h2 class="heading"> <span>My</span>Skills</h2>
+            </div>
+            <div class="info">
+                <h2>MS Office</h2>
+                <p>MS Word, MS Excel, MS PowerPoint</p>
+            </div>
+            <div class="info">
+                <h2>UI/UX Designer</h2>
+                <p>figma , photoshop</p>
+            </div>
+            <div class="info">
+                <h2>Web Designer</h2>
+                <p>html,css,javascript</p>
+            </div>
+            <div class="info">
+                <h2>Frontend Developer</h2>
+                <p>all programming languages <br>
+                    included( Bootsrap, Jquery)
+                </p>
+            </div>
+        </div>
+    </section>
+    <h2 id="heading-cont"><span>C</span>ontact Us</h2>
+    <section id="contact">
+        <div class="form-container">
+            <h2>Contact <span>Us</span></h2>
+            <form action="https://formsubmit.co/maryamkh4240@gmail.com" method="POST">
+
+
+
+                <input type="text" name="User-name" placeholder="Username" required />
+                <input type="email" name="Email" placeholder="Email" required />
+                <textarea name="message" placeholder="Your Message..." required></textarea>
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3>Connect with us</h3>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/1234567890" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://play.google.com/store/apps/details?id=com.easycontactvdailer.icontact&hl=en&pli=1"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        <p>© 2025 YourWebsiteName. All rights reserved.</p>
+    </footer>
+    <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navbar = document.querySelector('.navbar'); // ← Fixed here
+
+    toggleBtn.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+    });
+</script>
+
+
+</body>
+
+</html>
